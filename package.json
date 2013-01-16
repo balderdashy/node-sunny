@@ -9,10 +9,13 @@
     "node": ">=0.4.5"
   },
   "dependencies": {
-    "xml2js": "0.1.9"
+    "xml2js": "0.1.9",
+    "underscore": "~1.4.3",
+    "underscore.string": "~2.3.1",
+    "request": "~2.12.0"
   },
   "scripts": {
-    "test":"./node_modules/nodeunit/bin/nodeunit test"
+    "test": "./node_modules/nodeunit/bin/nodeunit test"
   },
   "devDependencies": {
     "jake": "0.1.19",
@@ -30,8 +33,13 @@
     "url": "git://github.com/ryan-roemer/node-sunny.git"
   },
   "keywords": [
-    "sunny", "cloud",
-    "amazon", "aws", "amazon web services", "s3", "simple storage service",
+    "sunny",
+    "cloud",
+    "amazon",
+    "aws",
+    "amazon web services",
+    "s3",
+    "simple storage service",
     "google storage for developers"
   ]
 }
