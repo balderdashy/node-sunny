@@ -11,6 +11,9 @@
   "dependencies": {
     "xml2js": "0.1.9"
   },
+  "scripts": {
+    "test":"./node_modules/nodeunit/bin/nodeunit test"
+  },
   "devDependencies": {
     "jake": "0.1.19",
     "findit": "0.1.1",
